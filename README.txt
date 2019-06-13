@@ -56,11 +56,5 @@ If there is not a file descriptor inside a request in the circular buffer, then 
  Sources : 
  	https://www.gnu.org/software/libc/manual/html_node/Server-Example.html    used for select method
  	https://stackoverflow.com/questions/7666509/hash-function-for-string      used for hash extraction of the contents of the files shared
-	https://www.geeksforgeeks.org/linked-list-set-3-deleting-node/			  used both at client and server for updating their client lists
-	
-	
-A bash file test.sh is also added for generating small input files.
-	
-A client gets removed from the system by a signal CTRL+C from the terminal, as a signal handler for the SIGINT signal is being
-implemented (in file main.c). 
+	https://www.geeksforgeeks.org/linked-list-set-3-deleting-node/		used both at client and server for updating their client lists
 
